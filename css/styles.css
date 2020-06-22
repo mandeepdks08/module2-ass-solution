@@ -1,0 +1,179 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #D3D3D3;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px auto 20px auto;
+	font-size: 250%;
+	font-family: cursive;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.green {
+	background-color: #44ff00;
+}
+
+ul {
+	list-style-position: outside;
+}
+
+@media (min-width: 992px) {
+
+	.box-lp {
+		width: 33.33%;
+		position: relative;
+		float: left;
+	}
+
+	.innerBox-lp {
+		border: 1px solid black;
+		width: 90%;
+		margin: auto;
+		background-image: linear-gradient(orange, yellow);
+
+	}
+
+	.innerBox-lp:hover {
+		background-image: linear-gradient(pink,orange);
+	}
+
+	.headingbox-lp {
+		width: 45%;
+		position: relative;
+		left: 55%;
+		text-align: center;
+		border: 1px solid black;
+		font-size: 150%;
+		font-family: cursive;
+		overflow: auto;
+	}
+
+	.contentbox-lp {
+		width: 80%;
+		margin: 10px auto 10px auto;
+		font-size: 120%;
+		font-family: cursive;
+	}
+}
+
+
+@media (min-width: 798px) and (max-width: 991px) {
+
+	.box-tab-1 {
+		width: 50%;
+		position: relative;
+		float: left;
+		margin-bottom: 20px;
+	}
+
+	.box-tab-2 {
+		width: 100%;
+		position: relative;
+		clear: left;
+	}
+
+	.innerBox-tab-1 {
+		border: 1px solid black;
+		width: 90%;
+		margin: auto;
+		background-image: linear-gradient(orange, yellow);
+	}
+
+	.innerBox-tab-2 {
+		border: 1px solid black;
+		width: 95%;
+		margin: auto;
+		background-image: linear-gradient(orange, yellow);
+	}
+
+	.innerBox-tab-1:hover,.innerBox-tab-2:hover {
+		background-image: linear-gradient(pink,orange);
+	}
+
+	.headingbox-tab-1 {
+		width: 45%;
+		position: relative;
+		left: 55%;
+		text-align: center;
+		border: 1px solid black;
+		font-size: 150%;
+		font-family: cursive;
+	}
+
+	.headingbox-tab-2 {
+		width: 25%;
+		position: relative;
+		left: 75%;
+		text-align: center;
+		border: 1px solid black;
+		font-size: 150%;
+		font-family: cursive;
+	}
+
+	.contentbox-tab-1 {
+		width: 80%;
+		margin: 10px auto 10px auto;
+		font-size: 120%;
+		font-family: cursive;
+	}	
+
+	.contentbox-tab-2 {
+		width: 90%;
+		margin: 10px auto 10px auto;
+		font-size: 120%;
+		font-family: cursive;
+	}	
+}
+
+
+@media (max-width: 797px) {
+
+	.box-mob {
+		width: 100%;
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.innerBox-mob {
+		border: 1px solid black;
+		width: 90%;
+		margin: auto;
+		background-image: linear-gradient(orange, yellow);
+	}
+
+	.innerBox-mob:hover {
+		background-image: linear-gradient(pink,orange);
+	}
+
+	.headingbox-mob {
+		width: 45%;
+		position: relative;
+		left: 55%;
+		text-align: center;
+		border: 1px solid black;
+		font-size: 150%;
+		font-family: cursive;
+	}
+
+
+	.contentbox-mob {
+		width: 80%;
+		margin: 10px auto 10px auto;
+		font-size: 120%;
+		font-family: cursive;
+	}	
+}
